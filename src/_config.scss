@@ -17,20 +17,47 @@
 
 // VARIABLES fuentes y colores 
 
-$fuenteHeaders:'single';
+$fuenteHeaders: 'single';
 $fuenteText: 'permanent';
 
 $color00: black;
 $color01: white;
-$color02:  #1aeca4;
-$color03:  #005cd5;
+$color02: #1aeca4;
+$color03: #005cd5;
 $color04: #410a6e;
 
 $tablet: 900px;
 $desktop: 1100px;
 
 
-header, main, section, nav, footer{
-
+header, main, section, nav, footer {
   width: 100%;
+}
+
+section {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 2rem;
+  padding: 2rem 0rem;
+
+  @media only screen and (min-width:$desktop) {  
+    padding: 4rem 0rem;
+    row-gap: 4rem;
+
+  }
+
+
+}
+
+h1, h2, h3, h4{
+
+  font-family: $fuenteHeaders;
+}
+
+h3, h4{
+
+  color: $color03;
 }
