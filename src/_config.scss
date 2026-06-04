@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'single';
+  src: url('./assets/BitcountGridSingle-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'permanent';
+  src: url('./assets/PermanentMarker-Regular.ttf');
+}
+
+// VARIABLES fuentes y colores 
+
+$fuenteHeaders:'single';
+$fuenteText: 'permanent';
+
+$color00: black;
+$color01: white;
+$color02:  #1aeca4;
+$color03:  #005cd5;
+$color04: #410a6e;
+
+$tablet: 900px;
+$desktop: 1100px;
+
+
+header, main, section, nav, footer{
+
+  width: 100%;
+}

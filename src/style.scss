@@ -1,0 +1,57 @@
+@use 'config' as c;
+
+header{
+
+  height: 100dvh;
+  background: linear-gradient(45deg, #1aeca4, #005cd5, #410a6e);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+
+  h1{
+
+    font-size: clamp(1rem, 5vw, 6rem);
+    font-weight: 900;
+    color: c.$color02;
+    font-family: c.$fuenteHeaders;
+
+    @media only screen and (min-width: c.$tablet) {
+
+      color: aqua;
+      
+    }
+
+    @media only screen and (min-width: c.$desktop) {
+
+      color: red;
+      
+    }
+
+
+  }
+}
+
+
+.boton{
+
+  text-decoration: none;
+  border-radius: 5px;
+  color: c.$color01;
+  font-family: c.$fuenteText;
+  font-weight: 900;
+  background-color: c.$color04;
+  padding: 1rem 3rem;
+  transition: .5s;
+
+
+
+  &:hover{
+
+    color: c.$color04;
+    background-color: c.$color01;
+  }
+
+}
