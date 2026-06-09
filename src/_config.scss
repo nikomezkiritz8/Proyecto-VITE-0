@@ -61,3 +61,25 @@ h3, h4{
 
   color: $color03;
 }
+
+.boton{
+
+  text-decoration: none;
+  border-radius: 120px;
+  color: $color01;
+  font-family: $fuenteText;
+  font-size: 1rem;
+  font-weight: 900;
+  background-color: $color04;
+  padding: 1rem 3rem;
+  transition: .5s;
+
+
+
+  &:hover{
+
+    color: $color04;
+    background-color: $color01;
+  }
+
+}

@@ -38,27 +38,7 @@ header{
 }
 
 
-.boton{
 
-  text-decoration: none;
-  border-radius: 5px;
-  color: c.$color01;
-  font-family: c.$fuenteText;
-  font-size: 1rem;
-  font-weight: 900;
-  background-color: c.$color04;
-  padding: 1rem 3rem;
-  transition: .5s;
-
-
-
-  &:hover{
-
-    color: c.$color04;
-    background-color: c.$color01;
-  }
-
-}
 
 
 
